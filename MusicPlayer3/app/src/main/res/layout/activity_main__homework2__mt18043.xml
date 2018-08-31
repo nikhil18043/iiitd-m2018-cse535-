@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+
+<fragment
+    android:name="com.donotcopy.musicplayer.List_Homework2_MT18043"
+    android:id="@+id/fragment1"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/play"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="61dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/play2" />Button
+
+        <Button
+            android:id="@+id/stop"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/play"
+            android:layout_marginEnd="61dp"
+            android:layout_weight="1"
+            android:background="@drawable/stop2" />
+
+        <Button
+            android:id="@+id/downlaod"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/download" />Button
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>
